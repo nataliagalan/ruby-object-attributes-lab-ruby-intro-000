@@ -1,4 +1,4 @@
-#You'll be teaching Person about their names through two methods, 
+#You'll be teaching Person about their names through two methods,
 #name, and #name= that read and write to a corresponding instance variable @name
 
 class Person
@@ -7,11 +7,8 @@ class Person
     @name = person_name
   end
 
-  def name 
+  def name
     @name
   end
   
 end
-
-
-  
