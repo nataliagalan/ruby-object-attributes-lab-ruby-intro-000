@@ -1,5 +1,5 @@
-#You'll be teaching Person about their names through two methods,
-#name, and #name= that read and write to a corresponding instance variable @name
+#You'll be teaching Person about their jobs through two methods, 
+#job, and #job= that read and write to a corresponding instance variable @job.
 
 class Person
 
@@ -9,6 +9,14 @@ class Person
 
   def name
     @name
+  end
+
+  def job= (job_name)
+    @job = job_name
+  end
+
+  def job
+    @job
   end
   
 end
